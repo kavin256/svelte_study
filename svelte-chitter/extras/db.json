@@ -1,0 +1,18 @@
+{
+  "chits": [
+    {
+      "id": 1,
+      "author": "Nauman",
+      "handle": "@recluze",
+      "content": "Firat Chit",
+      "likes": 5
+    },
+    {
+      "id": 2,
+      "author": "Blah",
+      "handle": "@recluzeS",
+      "content": "Second Chit",
+      "likes": 3
+    }
+  ]
+}

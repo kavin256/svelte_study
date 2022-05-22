@@ -1,0 +1,19 @@
+{
+	"configurations": [
+		{
+			"type": "aws-sam",
+			"request": "direct-invoke",
+			"name": "svelte-chitter:src/backend/Api.incLikes (nodejs14.x)",
+			"invokeTarget": {
+				"target": "code",
+				"projectRoot": "${workspaceFolder}/svelte-chitter",
+				"lambdaHandler": "src/backend/Api.incLikes"
+			},
+			"lambda": {
+				"runtime": "nodejs14.x",
+				"payload": {},
+				"environmentVariables": {}
+			}
+		}
+	]
+}
